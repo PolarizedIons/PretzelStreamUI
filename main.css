@@ -1,0 +1,47 @@
+#error {
+    color: #971d1d;
+}
+
+.hidden {
+    display: none;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+#container {
+    position: fixed;
+    left: 0.5rem;
+    bottom: 0.5rem;
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#artwork {
+    max-width: 200px;
+    border: 3px solid white;
+}
+
+#details {
+    text-shadow:
+       2px 2px 0 white,
+     -1px -1px 0 white,  
+      1px -1px 0 white,
+      -1px 1px 0 white,
+       1px 1px 0 white;
+}
+
+#songName {
+    font-size: 1.7rem;
+}
+
+#artistName {
+    font-size: 1.2rem;
+}
